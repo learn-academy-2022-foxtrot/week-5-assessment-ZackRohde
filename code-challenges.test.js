@@ -14,13 +14,13 @@
 
 // a) Create a test with expect statements using the variables provided.
 
-// describe("codedMessage", () => {
-//   it("takes in a string and returns a coded message.", () => {
-//     expect(codedMessage(secretCodeWord1)).toEqual("L4ck4d41s1c4l")
-//     expect(codedMessage(secretCodeWord2)).toEqual("G0bbl3dyg00k")
-//     expect(codedMessage(secretCodeWord3)).toEqual("3cc3ntr1c")
-//   })
-// })
+describe("codedMessage", () => {
+  it("takes in a string and returns a coded message.", () => {
+    expect(codedMessage(secretCodeWord1)).toEqual("L4ck4d41s1c4l")
+    expect(codedMessage(secretCodeWord2)).toEqual("G0bbl3dyg00k")
+    expect(codedMessage(secretCodeWord3)).toEqual("3cc3ntr1c")
+  })
+})
 
 // Good Fail!
 // ReferenceError: codedMessage is not defined
@@ -69,12 +69,12 @@ console.log(codedMessage(secretCodeWord3))
 
 // a) Create a test with expects statement using the variable provided.
 
-// describe("returnLetterInWord", () => {
-//   it("takes in an array of words and a single letter and returns an array of all the words containing that particular letter.", () => {
-//     expect(returnLetterInWord(letterA)).toEqual(["Mango", "Apricot", "Peach"])
-//     expect(returnLetterInWord(letterE)).toEqual(["Cherry", "Blueberry", "Peach"])
-//   })
-// })
+describe("returnLetterInWord", () => {
+  it("takes in an array of words and a single letter and returns an array of all the words containing that particular letter.", () => {
+    expect(returnLetterInWord(letterA)).toEqual(["Mango", "Apricot", "Peach"])
+    expect(returnLetterInWord(letterE)).toEqual(["Cherry", "Blueberry", "Peach"])
+  })
+})
 
 // Good Fail!
 // ReferenceError: returnLetterInWord is not defined
@@ -97,11 +97,11 @@ const letterE = "e"
 // Console log. 
 // Not sure what to do to finish it, I don't understand the syntax even after looking it up. 
 
-// const returnLetterInWord = (array, letter) => {
-//   return newArray = array.filter((word.includes(letter)
-// }
-// console.log(returnLetterInWord(fruitArray, letterA))
-// console.log(returnLetterInWord(fruitArray, letterE))
+const returnLetterInWord = (array, letter) => {
+  return newArray = array.filter((word.includes(letter)
+}
+console.log(returnLetterInWord(fruitArray, letterA))
+console.log(returnLetterInWord(fruitArray, letterE))
 
 // --------------------3) Create a function that takes in an array of 5 numbers and determines whether or not the array is a "full house". A full house is exactly one pair and one three of a kind.
 
